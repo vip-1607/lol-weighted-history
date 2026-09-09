@@ -1,0 +1,13 @@
+{
+  "best_of": 5,
+  "p0": 0.60,
+  "history": "W",
+  "future_sides": ["blue", "red", "blue", "red", "blue"],
+  "parameters": {"alpha": 0.25, "decay": 0.7, "gamma": 0.05, "beta": 0.12},
+  "markets": [
+    {"name": "A match", "kind": "match"},
+    {"name": "5 maps", "kind": "total_exact", "line": 5},
+    {"name": "A -1.5", "kind": "handicap", "line": -1.5}
+  ],
+  "sensitivity": {"alpha": [0.0, 0.25, 0.5], "decay": [0.4, 0.7]}
+}
